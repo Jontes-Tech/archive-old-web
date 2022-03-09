@@ -8,14 +8,14 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <Head>
         <title>Jonte</title>
-        <link rel="icon" href="https://blog.jontes.page/img/favicon.ico" />
+        <link rel="icon" href="favicon.ico" />
       </Head>
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <a>Sup, I'm Jonte!</a>
+          <a>Sup, I&apos;m Jonte!</a>
         </h1>
         <p className={styles.description}>
-          I'm a 13 year old tech geek from Sweden, Europe.
+          I&apos;m a 13 year old tech geek from Sweden, Europe.
         </p>
 
         <div className={styles.grid}>
