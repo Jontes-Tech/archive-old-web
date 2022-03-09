@@ -50,7 +50,7 @@ const Home: NextPage = () => {
       </main>
 
       <footer className={styles.footer}>
-          Build with (very little) ❤️ by Jonte - Licensed under GPL 3
+          Built with (very little) ❤️ by Jonte - Licensed under GPL 3
       </footer>
     </div>
   )
