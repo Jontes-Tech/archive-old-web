@@ -25,7 +25,7 @@ const Home: NextPage = () => {
           </a>
 
           <a href="https://github.com/Jontes-Tech" className={styles.card}>
-            <h2>Check out my Git&rarr;</h2>
+            <h2>Check out my Git! &rarr;</h2>
             <p>Plagiarism is fine, right?!</p>
           </a>
 
