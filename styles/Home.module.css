@@ -12,26 +12,11 @@
   align-items: center;
 }
 
-.footer {
-  display: flex;
-  flex: 2;
-  padding: 2rem 0;
-  border-top: 2px solid #03dac5;
-  justify-content: center;
-  align-items: center;
-  color:rgb(189, 189, 189)
-}
-
-.title a {
-  color: #bb86fc;
-  text-decoration: none;
-}
-
 .title {
   margin: 0;
   line-height: 1.20;
   font-size: 4rem;
-  color: #eaeaea;
+  color: #B04BFF;
 }
 
 .description {
@@ -53,7 +38,7 @@
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
-  color: #bb86fc;
+  color: #B04BFF;
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
