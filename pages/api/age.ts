@@ -1,7 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 export default function handler(
-  req: NextApiRequest,
-  res: NextApiResponse<Data>
+  req: NextApiRequest
 ) {
   res.status(200).json({ age: age})
 }
