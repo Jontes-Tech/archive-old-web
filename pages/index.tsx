@@ -1,6 +1,9 @@
 import type { NextPage } from 'next'
+import next from 'next';
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+var age =((Date.now() / 1000 - 1233516011) / 31557600).toFixed(0);
+
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
@@ -12,8 +15,8 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>
           <a>Sup, I&apos;m Jonte!</a>
         </h1>
-        <p className={styles.description}>
-          I&apos;m a 13 year old tech geek from Sweden, Europe.
+        <p id="desc" className={styles.description}>
+        I'm a {age} year old tech geek from Sweden, Europe.
         </p>
 
         <div className={styles.grid}>
