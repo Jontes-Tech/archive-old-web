@@ -1,0 +1,42 @@
+body {
+  background-color: #161616;
+  }
+h1 {
+    color: rgb(201, 65, 255);
+    text-align: center;
+    vertical-align: bottom;
+    font-size: 800%;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    padding-top: 10%;
+    text-shadow: 4px 4px #292929;
+    min-width: 50%;
+  }
+  button {
+    color: #e7e7e7;
+    margin-top: 50%;
+    padding-bottom: 115%;
+    padding: 0.7em 1.7em;
+    font-size: 300%;
+    border-radius: 0.5em;
+    background: #161616;
+    border: 1px solid #89E5F1;
+    display: grid;
+    margin: auto;
+    min-width: 30%;
+   }
+   
+   button:hover {
+    border: 1px solid rgb(163, 50, 255);
+   }
+h2 {
+  color: #89E5F1;
+  text-align: center;
+  font-size: 200%;
+  font-family: Tahoma, sans-serif;
+}
+div {
+  width:100%;
+  position: absolute;
+  bottom:0;
+}
