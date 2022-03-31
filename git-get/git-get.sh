@@ -14,15 +14,15 @@ rm -f /tmp/username.tmp.$$
 rm -f /tmp/reponame.tmp.$$
 echo "Your username is '$username' and your repo name is '$reponame'"
 echo "# test-repo" >> README.md
-#git init
-#git add .
-#git commit -m "Initial Commit"
-#git branch -M main
+git init
+git add .
+git commit -m "Initial Commit"
+git branch -M main
 echo "Follow instructions on webpage."
 if which xdg-open > /dev/null; then
-  xdg-open 'http://127.0.0.1:5500/web/git-get/get-token/'> /dev/null
+  xdg-open 'https://jontes.page/git-get/'> /dev/null
 elif which gnome-open > /dev/null; then
-  gnome-open 'http://127.0.0.1:5500/web/git-get/get-token/'> /dev/null
+  gnome-open 'https://jontes.page/git-get/'> /dev/null
 else
   echo "Could not detect the web browser to use."
 fi
@@ -34,5 +34,5 @@ token=$?
 token=`cat $HOME/secret-github-token.txt`
 clear
 echo "Your token is $token"
-#git remote add origin https://github.com/$username/$reponame.git
-#git push -u origin main
+git remote add origin https://github.com/$username/$reponame.git
+git push -u origin main
