@@ -20,9 +20,9 @@ git commit -m "Initial Commit"
 git branch -M main
 echo "Follow instructions on webpage."
 if which xdg-open > /dev/null; then
-  xdg-open 'https://jontes.page/git-get/'> /dev/null
+  xdg-open 'https://jontes.page/git-get/get-token'> /dev/null
 elif which gnome-open > /dev/null; then
-  gnome-open 'https://jontes.page/git-get/'> /dev/null
+  gnome-open 'https://jontes.page/git-get/get-token'> /dev/null
 else
   echo "Could not detect the web browser to use."
 fi
