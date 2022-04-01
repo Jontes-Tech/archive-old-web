@@ -1,23 +1,24 @@
 body {
   background-color: #161616;
+  font-family: Tahoma, sans-serif;
   }
 h1 {
     color: rgb(201, 65, 255);
     text-align: center;
     vertical-align: bottom;
-    font-size: 800%;
+    font-size: 300%;
     font-family: Tahoma, sans-serif;
     font-weight: bold;
     padding-top: 10%;
     text-shadow: 4px 4px #292929;
-    min-width: 50%;
+    min-width: 10%;
   }
   button {
     color: #e7e7e7;
     margin-top: 50%;
     padding-bottom: 115%;
     padding: 0.7em 1.7em;
-    font-size: 300%;
+    font-size: 100%;
     border-radius: 0.5em;
     background: #161616;
     border: 1px solid #89E5F1;
@@ -32,9 +33,33 @@ h1 {
 h2 {
   color: #89E5F1;
   text-align: center;
-  font-size: 200%;
-  font-family: Tahoma, sans-serif;
+  font-size: 100%;
 }
 span {
-  color:rgb(163, 50, 255)
+  color:rgb(163, 50, 255);
 }
+div {
+  background-color:rgb(34, 34, 34);
+  margin-top: 5%;
+  padding-bottom: 15;
+  text-align: center;
+  color:beige;
+}
+h3 {
+  font-size: 70%;
+}
+a:link {
+  color: rgb(163, 50, 255);
+}
+  /* visited link */
+  a:visited {
+    color: rgb(163, 50, 255);
+  }
+  /* mouse over link */
+  a:hover {
+    color: #8ebf42;
+  }
+  /* selected link */
+  a:active {
+    color: #8ebf42;
+  }
