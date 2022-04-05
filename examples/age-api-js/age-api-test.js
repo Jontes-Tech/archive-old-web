@@ -1,6 +1,6 @@
 "use strict";
 
-let myRequest = new Request("http://localhost:8888/.netlify/functions/age")
+let myRequest = new Request("https://jontes.page/.netlify/functions/age")
 
 fetch(myRequest)
     .then(function(resp) {
