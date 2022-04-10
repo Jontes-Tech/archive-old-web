@@ -144,9 +144,9 @@ section {
 .left {
   width: 50%;
   height: 600px;
-  background: url(Hero.webp)
+  background: url(me.webp)
     no-repeat center / cover;
-  border-radius: 8px;
+  border-radius: 12px;
 }
 .right {
   width: 50%;
