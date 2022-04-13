@@ -1,36 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Jonte👋</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jonte</title>
+  <link rel="shortcut icon" href="./image/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <section id="hero">
     <div class="container">
-      <div class="info">
-        <h1>Sup, I'm Jonte!</h1>
-        <h2>I'm a kid who loves FOSS!</h2>
-        <p>Hello there, I'm ~/Jonte on the internet. I'm just a kid who kinda loves this whole tech thing, especially when it comes to Opensource projects.</p>
-        <a href="https://blog.jontes.page">Read my blog!</a>
+      <div class="left">
+        <p class="subheading">Hello!</p>
+        <h2 class="heading">
+          <div class="wrapper"><span>Greetings,</span></div>
+          <div class="wrapper"><span>I'm</span></div>
+          <div class="wrapper"><span>Jonte</span></div>
+        </h2>
+        <p class="desc">I'm a teenage tech geek who really loves FOSS.</p>
+        <div class="buttons">
+          <a href="https://blog.jontes.page" class="primary-btn">Read my Blog!</a>
+          </a>
+        </div>
+      </div>
+      <div class="right">
+        <img src="./image/me.webp" alt="">
       </div>
     </div>
-    <div class="down-arrow"></div>
   </section>
-  <section>
+  <section id="stuff-i-love">
     <div class="container">
-      <div class="left"></div>
-      <div class="right">
-        <div id="whoami" class="content">
-          <h1>$ whoami</h1>
-          <p>I'm a teenage tech geek who absolutely loves Opensource software and culture. Oh, and I use Arch BTW.</p>
-          <a href="https://github.com/Jontes-Tech" class="btn">My Github</a>
+      <h2 class="section-heading" data-outline="Stuff-I-Love">Stuff I love</h2>
+      <div class="all-items">
+        <div href="#hero" class="item">
+          <div class="icon">
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <h3 class="item-heading">Web Dev</h3>
+          <p class="item-desc">I like pretty GUIs.</p>
+        </div>
+        <div class="item">
+          <div class="icon">
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+            </svg>
+          </div>
+          <h3 class="item-heading">VMs</h3>
+          <p class="item-desc">I really like experimenting, thus I LOVE VMs since it's really easy to try different OSes</p>
+        </div>
+        <div class="item">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                d="M10 21h7a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v11m0 5l4.879-4.879m0 0a3 3 0 104.243-4.242 3 3 0 00-4.243 4.242z" />
+            </svg>
+          </div>
+          <h3 class="item-heading">Learning</h3>
+          <p class="item-desc">I love learning.</p>
         </div>
       </div>
     </div>
   </section>
-  </div>
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-heading" data-outline="Projects">Projects</h2>
+      <div class="all-items">
+        <div class="item">
+          <div class="left">
+            <div class="img">
+              <img src="./image/projects/birdbox2022.webp" alt="">
+            </div>
+          </div>
+          <div class="right">
+            <h2 class="project-title">Birdbox 2022</h2>
+            <h3 class="project-sub-title">Ongoing project</h3>
+            <p class="project-desc">I am currently building a birdbox with a camera in it, which can livestream to places like YouTube. Fun.</p>
+            <div class="buttons">
+              <a href="https://blog.jontes.page/post/planning-for-birdbox2022/" class="primary-btn">Read the article</a>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="left">
+            <div class="img">
+              <img src="./image/projects/jontehosted.jpeg" alt="">
+            </div>
+          </div>
+          <div class="right">
+            <h2 class="project-title">JonteHosted</h2>
+            <h3 class="project-sub-title">Ongoing project</h3>
+            <p class="project-desc">JonteHosted is the collection of all my webservices, such as <a href="#">Jontes.Page</a>, <a href="https://blog.jontes.page">Blog.Jontes.Page</a>, <a href="https://uptime.jontehosted.tk/status/web">Uptime.JonteHosted.TK</a>, etc</p>
+            <div class="buttons">
+              <a href="https://blog.jontes.page/post/jontehosted" class="primary-btn">Learn More!</a>
+              <a href="https://uptime.jontehosted.tk/status/web/" class="primary-btn outline external-link"> <span>Uptime</span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
-</html> 
+</html>
