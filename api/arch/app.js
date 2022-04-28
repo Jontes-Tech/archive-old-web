@@ -1,4 +1,4 @@
-fetch('https://api.jontes.page/api/arch-rackspace-latest')
+fetch('https://api.jontes.page/api/arch?mirror=rackspace')
 .then(response => response.text())
 .then(data => replaceLink(data));
 
