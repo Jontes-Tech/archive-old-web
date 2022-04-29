@@ -6,12 +6,11 @@
     <script>
         let url = new URL(window.location.href);
         let searchParams = new URLSearchParams(url.search);
-        let url_for_redirect = 'https://api.jontes.page/api/arch?' + searchParams.get('mirror');
-        fetch(url_for_redirect)
+        fetch("https://api.jontes.page/api/arch?mirror=rackspace")
         .then(response => response.text())
         .then(data => replaceLink(data));
         function replaceLink(data) {
-            document.getElementById("h1").innerHTML = "Downloading Arch Linux";
+            document.getElementById("h1").innerHTML = "Downloading Arch Linux from Rackspace";
             window.location.replace(data);
         }
     </script>
