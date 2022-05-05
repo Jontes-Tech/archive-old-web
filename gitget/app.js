@@ -1,6 +1,6 @@
 function pageOnline() {
     console.log("Working")
-    window.location.replace("./app");
+    window.location.replace("./ssh_key");
   }
 function pageOffline() {
     console.log("Not Working")
