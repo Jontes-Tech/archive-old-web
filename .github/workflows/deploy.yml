@@ -1,0 +1,23 @@
+name: Deploy to IPFS signal
+
+on:
+  push:
+    branches:
+      - "master"
+
+jobs:
+  zip-files:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: vimtor/action-zip@v1
+        with:
+          files: ./
+          dest: result.zip
+      - name: Deploy Stage
+        uses: fjogeleit/http-request-action@master
+        with:
+          url: "https://signal.lvksh.cloud/deployments/push?site=61464061132410880"
+          method: "PUT"
+          bearerToken: ${{ secrets.SIGNAL_TOKEN }}
+          files: '{ "data": "${{ github.workspace }}/result.zip" }'
