@@ -3,7 +3,7 @@ name: Deploy to IPFS signal
 on:
   push:
     branches:
-      - "master"
+      - "main"
 
 jobs:
   zip-files:
