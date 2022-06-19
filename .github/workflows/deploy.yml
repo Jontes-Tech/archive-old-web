@@ -17,7 +17,7 @@ jobs:
       - name: Deploy Stage
         uses: fjogeleit/http-request-action@master
         with:
-          url: "https://signal.lvksh.cloud/deployments/push?site=61464061132410880"
+          url: "https://signal.lvksh.cloud/deployments/push?site=61482985177747456"
           method: "PUT"
           bearerToken: ${{ secrets.SIGNAL_TOKEN }}
           files: '{ "data": "${{ github.workspace }}/result.zip" }'
