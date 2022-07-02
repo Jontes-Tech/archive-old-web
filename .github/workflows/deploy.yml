@@ -13,7 +13,7 @@ jobs:
       - name: Edgeserver Upload
         uses: lvkdotsh/edgeserver-action@v0.0.34
         with:
-          app_id: "65820895066722304"
+          app_id: "61482985177747456"
           server: https://api.edgeserver.io
           token: ${{ secrets.SIGNAL_TOKEN }}
           directory: .
