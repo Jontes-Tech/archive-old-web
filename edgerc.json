@@ -3,7 +3,7 @@
     "redirects": [
         {
             "pattern": "^/git$",
-            "desination": "https://github.com/Jontes-Tech"
+            "destination": "https://github.com/Jontes-Tech"
         }
     ]
   }
