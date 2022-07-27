@@ -1,0 +1,10 @@
+{
+  "config": {
+    "redirects": [
+        {
+            "pattern": "^/git$",
+            "desination": "https://github.com/Jontes-Tech"
+        }
+    ]
+  }
+}
