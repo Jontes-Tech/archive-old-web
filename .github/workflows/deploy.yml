@@ -16,4 +16,4 @@ jobs:
           app_id: "61482985177747456"
           server: https://api.edgeserver.io
           token: ${{ secrets.SIGNAL_TOKEN }}
-          directory: .
+          directory: src
