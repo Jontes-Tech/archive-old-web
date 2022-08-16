@@ -1,2 +1,1 @@
-# Jonte's Web!
-This is my website
+This is an archive of the progress of Jontes.Page
